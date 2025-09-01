@@ -35,7 +35,7 @@ XML = """<?xml version="1.0" encoding="iso-8859-1"?>
 requests.packages.urllib3.disable_warnings()
 
 class WPBrute:
-    def __init__(self, url, username, passfile, threads=8):
+    def __init__(self, url, username, passfile, threads=10):
         self.url = url
         self.username = username
         self.passfile = passfile
