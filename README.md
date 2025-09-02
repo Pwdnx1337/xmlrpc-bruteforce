@@ -25,7 +25,7 @@ pip install -r requirements.txt
 run the script:
 
 ```bash
-python3 run.py
+python3 xmlrpc.py
 ```
 
 it will prompt:
