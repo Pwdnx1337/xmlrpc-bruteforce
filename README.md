@@ -5,13 +5,6 @@ If `xmlrpc.php` is enabled and not protected, it allows attackers to send repeat
 
 ---
 
-## disclaimer
-this script is for **educational purposes only**.  
-do not use it against systems you don’t own or without **explicit permission**.  
-unauthorized use may be **illegal** and could cause **criminal charges**.
-
----
-
 ## installation
 
 clone repo and install dependencies:
@@ -52,8 +45,6 @@ example entry:
 https://example.com/xmlrpc.php admin:password123
 ```
 
----
-
 ## technical Explanation
 
 * WordPress includes `xmlrpc.php`, an API endpoint used for remote publishing, pingbacks, and integrations.
@@ -78,3 +69,8 @@ https://example.com/xmlrpc.php admin:password123
 2. sends payload via `POST` to `xmlrpc.php`.
 3. if credentials are correct > the response contains `<name>` and `isAdmin`.
 4. once found, credentials are logged to `save.txt`.
+
+## disclaimer
+this script is for **educational purposes only**.  
+do not use it against systems you don’t own or without **explicit permission**.  
+unauthorized use may be **illegal** and could cause **criminal charges**.
